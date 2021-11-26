@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+    background-color: blanchedalmond;
+}
+
+.main-nav{
+    background-color: rgb(247, 255, 128);
+    position: fixed;
+    z-index: 01;
+    width: 60vh;
+    height: 4rem;
+    top: 90%;
+    display: inline-block;
+    text-align: center;
+    bottom: 1rem;
+}
+.main-nav__item{
+    margin: 2rem;
+    display: inline-block;
+}
+.main-nav__item :hover,
+.main-nav__item :active{
+    text-decoration: chartreuse;
+}
+.main-nav__Container{
+    display: inline-block;
+}
+
+.Titulaso{
+    position: relative;
+    top: 50%;
+    font-size: 5rem;
+}
+.Contenido{
+    font-size: 24px;
+}
+.Titulasito{
+    font-size: 4rem;
+    position: relative;
+    right: 10rem ;
+    bottom: 23rem;
+}
+.Titulasote{
+    font-size: 4rem;
+    position: relative;
+    right: 10rem ;
+    bottom: 17rem; 
+    
+}
+.er-Titulo {
+    background-color:rgb(247, 255, 128) ;
+    width: 70vh;
+    position: relative;
+    bottom: calc(100%-30%);
+}
+.do-Titulo {
+    background-color: blanchedalmond;
+    width: 70vh;
+    left: 100%;
+    position: relative;
+    top: 00%;
+    bottom: 50%;
+}
+
+
+
+.kay-feature__image {
+    background: rgb(243, 243, 115);
+    width: 128px;
+    height: 128px;
+    border: 2px solid gray;
+    display: inline-block;
+}
+.kay-feature{
+    display: inline-block;
+    position: relative;
+    right: 3rem ;
+}
+
+@media screen and (max-width: 70rem) {
+    *{background-color:blanchedalmond ;}
+    .main-nav{
+        top: 1rem;
+        left: 20rem;
+    }
+    .do-Titulo {
+        background-color: blanchedalmond;
+        
+        left: 5rem;
+        
+        top: 15rem;
+        bottom: 0;
+    }
+    .er-Titulo {
+    background-color:blanchedalmond ;
+    width: 70vh;
+    position: relative;
+    top: 4rem;
+    text-align: center;
+    left: 20rem;
+    }
+    .kay-feature{
+        position: relative;
+        left: 2rem;
+    }
+
+}
+@media screen and (max-width: 60rem) {
+    *{background-color:rgb(247, 172, 59) ;}
+        
+    .main-nav{
+        top: 1rem;
+        left: 5rem;
+    }
+    .do-Titulo {
+        background-color: blanchedalmond;
+        
+        left: 5rem;
+        
+        top: 15rem;
+        bottom: 0;
+    }
+    .er-Titulo {
+    background-color:blanchedalmond ;
+    width: 70vh;
+    position: relative;
+    top: 4rem;
+    text-align: center;
+    left: 100px;
+    }
+    .kay-feature{
+        position: relative;
+        left: 2rem;
+    }
+}
